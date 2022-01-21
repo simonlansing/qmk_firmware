@@ -102,35 +102,35 @@ const ledmap PROGMEM ledmaps[] = {
         PURPLE,                                                                                                                                       PURPLE
     ),
     [WINDOWS] = RGB_MATRIX_LAYOUT_LEDMAP(
-        GREEN,                                                                                                                                        PURPLE,
-        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    PURPLE,
-        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    PURPLE,
-        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,                 ______,    PURPLE,
-        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    PURPLE,
-        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______, ______, ______,    PURPLE,
-        GREEN,     ______,    RED, ______,                         ______,                         ______, ______, ______, ______, ______, ______,    PURPLE,
-        GREEN,                                                                                                                                        PURPLE
+        GREEN,                                                                                                                                        GREEN,
+        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    GREEN,
+        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    GREEN,
+        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,                 ______,    GREEN,
+        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    GREEN,
+        GREEN,     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______, ______, ______,    GREEN,
+        GREEN,     ______,    RED, ______,                         ______,                         ______, ______, ______, ______, ______, ______,    GREEN,
+        GREEN,                                                                                                                                        GREEN
     ),
     [MACOS] = RGB_MATRIX_LAYOUT_LEDMAP(
-        YELLOW,                                                                                                                                       PURPLE,
-        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    PURPLE,
-        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    PURPLE,
-        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,                 ______,    PURPLE,
-        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    PURPLE,
-        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______, ______, ______,    PURPLE,
-        YELLOW,    ______, ______,    RED,                         ______,                         ______, ______, ______, ______, ______, ______,    PURPLE,
-        YELLOW,                                                                                                                                       PURPLE
+        YELLOW,                                                                                                                                       YELLOW,
+        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    YELLOW,
+        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    YELLOW,
+        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,                 ______,    YELLOW,
+        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______,    YELLOW,
+        YELLOW,    ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______,         ______, ______, ______,    YELLOW,
+        YELLOW,    ______, ______,    RED,                         ______,                         ______, ______, ______, ______, ______, ______,    YELLOW,
+        YELLOW,                                                                                                                                       YELLOW
     ),
 
     [FUNCTIONS] = RGB_MATRIX_LAYOUT_LEDMAP(
-        CYAN,                                                                                                                                         PURPLE,
-        CYAN,      GREEN,  GREEN,  GREEN,  GREEN,  GREEN,  GREEN,  BLACK,  BLACK,  BLACK,  BLACK,  GREEN,  GREEN,  GREEN,  GREEN,          BLACK,     PURPLE,
-        CYAN,      BLACK,  GOLD,   GOLD,   GOLD,   BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  TEAL,           GOLD,      PURPLE,
-        CYAN,      BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,                  BLACK,     PURPLE,
-        CYAN,      TURQ,   BLACK,  BLACK,  BLACK,  BLACK,  TURQ,   BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,          BLACK,     PURPLE,
-        CYAN,      BLACK,  BLACK,  RED,    RED,    RED,    RED,    RED,    RED,    BLACK,  BLACK,  BLACK,  BLACK,          BLACK,  RED,    BLACK,     PURPLE,
-        CYAN,      BLACK,  BLACK,  BLUE,                           BLACK,                          BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,     PURPLE,
-        CYAN,                                                                                                                                         PURPLE
+        BLUE,                                                                                                                                         BLUE,
+        BLUE,      GREEN,  GREEN,  GREEN,  GREEN,  GREEN,  GREEN,  BLACK,  BLACK,  BLACK,  BLACK,  GREEN,  GREEN,  GREEN,  GREEN,          BLACK,     BLUE,
+        BLUE,      BLACK,  GOLD,   GOLD,   GOLD,   BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  TEAL,           GOLD,      BLUE,
+        BLUE,      BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,                  BLACK,     BLUE,
+        BLUE,      GREEN,   BLACK,  BLACK,  BLACK,  BLACK,  GREEN,   BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,          BLACK,     BLUE,
+        BLUE,      BLACK,  BLACK,  RED,    RED,    RED,    RED,    RED,    RED,    BLACK,  BLACK,  BLACK,  BLACK,          BLACK,  RED,    BLACK,     BLUE,
+        BLUE,      BLACK,  BLACK,  BLUE,                           BLACK,                          BLACK,  BLACK,  BLACK,  BLACK,  BLACK,  BLACK,     BLUE,
+        BLUE,                                                                                                                                         BLUE
     ),
 };
 
