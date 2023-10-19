@@ -19,22 +19,17 @@
 
 enum layout_names {
     WINDOWS = 0,    // Base Layout: The main keyboard layout that has all the characters
-    GAMING,         // Base Layout for Gaming
-    MACOS,          // Base Layout for MacOS
-    LINUX,          // Base Layout for Windows
-    FUNCTIONS,      // Function Layout: The function key activated layout with default functions and
-                    // some added ones
-    GIT,            // GIT Layout: GIT shortcuts and macros
-    SECRETS,        // Layer with secrets
+    MACOS,      // Base Layout for MacOS
+    FUNCTIONS,  // Function Layout: The function key activated layout with default functions and
+                // some added ones
+    GIT,        // GIT Layout: GIT shortcuts and macros
+    SECRETS,    // Layer with secrets
 };
 
 enum custom_keycodes {
     KC_CCCV = SAFE_RANGE,  // Hold to copy, tap to paste
-    
     KC_WIN,
-    KC_GAMING,
     KC_MAC,
-    KC_LINUX,
 
     KC_SECRET_1,
     KC_SECRET_2,
@@ -58,7 +53,7 @@ enum git_macros {
     G_CONF,                   // git config --global
     G_ADD,                    // git add
     G_DIFF,                   // git diff
-    G_RESET,                  // git reset
+    G_QK_BOOT,                // git reset
     G_REBAS,                  // git rebase
     G_BRANH,                  // git branch
     G_CHECK,                  // git checkout
@@ -92,9 +87,8 @@ enum combos {
 #define KC_WRGB KC_WPM_RGB
 
 #define KC_LINX KC_LINUX
-#define KC_GMNG KC_GAMING
 
-#define KC_RESET RESET
+#define KC_RESET QK_BOOT
 #define KC_RST KC_RESET
 
 #define OS_GIT OSL(GIT)

@@ -48,7 +48,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             record->event.time, record->tap.interrupted, record->tap.count);
 #endif  // KEYLOGGER_ENABLE
     switch (keycode) {
-        case KC_WIN ... KC_LINUX:
+        case KC_WIN ... KC_MAC:
             if (record->event.pressed) {
                 dprintf("set_single_persistent_default_layer %d\n", keycode - KC_WIN + WINDOWS);
                 set_single_persistent_default_layer(keycode - KC_WIN + WINDOWS);
@@ -116,4 +116,4 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
            process_record_fun(keycode, record);
 }
 
-void keyboard_post_init_user() { keyboard_post_init_encoder(); }
+void keyboard_post_init_user(void) { keyboard_post_init_encoder(); }
